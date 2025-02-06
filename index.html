@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile Card</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <div>
+                <img src="/images/kelvin007.jpg" alt="profile Icon" data-testid="profilePicture" class="profile-picture">
+            </div>
+            <h2 data-testid="fullName" class="pt-3">kelvin Nkwor</h2>
+            <h4 data-testid="jobTitle" class="pt-3">Frontend Engineer | Project Management | Educator</h4>
+            <p data-testid="shortBio" class="pt-3">
+                A passionate software developer that is enthusiastic about learning and collaborating to develop solutions 
+            </p>
+            <div class="emloc">
+                <img src="/images/location.svg" alt="" srcset="">
+                <p data-testid="currentLocation" class="pt-3">Lagos, Nigeria</p>
+                <img src="/images/mdi-light--email.svg" alt="email" srcset="">
+                <p data-testid="emailAddress" class="pt-3">kelvinchukwuyerem007@gmail.com</p>
+            </div>
+            
+            <div class="socials-img" data-testid="socialLinks">
+                <a href="https://x.com/Kelvindamiann">
+                    <img src="/images/mdi--twitter.svg" alt="twitter icon">
+                </a>
+                <a href="https://github.com/kelvin-damian">
+                    <img src="/images/mdi--github.svg" alt="github icon">
+                </a>
+            </div>
+            <p id="utcTime" data-testid="currentTimeUTC" class="p-time"></p>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
